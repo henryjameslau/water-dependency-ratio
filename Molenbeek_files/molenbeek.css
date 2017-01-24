@@ -1,0 +1,75 @@
+html, body {
+	background-color: #ffffff;
+	font-family: 'Noto Serif', serif;
+ }
+h2 {
+	font-size: 20px;
+}
+
+/*X-axis*/
+g.axis.x path{
+	visibility: hidden;
+}
+.tick text {
+	color: #2c3b78;
+	opacity: 0.5;
+}
+#units {
+	float: right;
+	opacity: 0.5;
+	margin-right: 8px;
+}
+
+/*Legend*/
+.bxl {
+	color: #9a0b16;
+}
+.bel {
+	color: #2c3b78;
+	opacity: 0.5;
+}
+#legend .glyphicon {
+	margin-left: 20px;
+	margin-right: 6px;
+}
+
+/*Tooltip*/
+.ttip {
+	font-family: 'Noto Serif', serif;
+}
+
+/*Autocomplete*/
+.twitter-typeahead {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.tt-hint {
+	color: #ccc;
+}
+
+.tt-menu {
+  width: 100%;
+  margin: 12px 0;
+  padding: 8px 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 3px 8px rgba(0,0,0,.2);
+          box-shadow: 0 3px 8px rgba(0,0,0,.2);
+}
+
+input               {
+  font-size:18px;
+  padding:15px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:2px solid #2c3b78;
+  background-color: #fef7ea;
+}
+input:focus         { outline:none; }
